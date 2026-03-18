@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Course homepage</title>
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
+ <section class="hero">
+    <div class="hero-overlay">
+        <h1 class="hero-title">My course homepage</h1>
+    </div>
+</section>
   <header>
-    <h1>My course homepage</h1>
   </header>
   <nav aria-label="Main navigation">
     <ul>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="#">Course site</a></li>
-      <li><a href="#">Resources</a></li>
+      <li><a href="https://stefaniga.github.io/ewd-uvt-2026/">Course site</a></li>
+      <li><a href="https://stefaniga.github.io/ewd-uvt-2026/resources/">Resources</a></li>
+	  <li><a href="card.html">Card</a></li>
     </ul>
   </nav>
   <main id="main-content">
@@ -25,7 +33,7 @@
       <h2>Photo</h2>
       <img src="Hunedoara_castle.jpg" width="500" height="300" alt="Castelul Corvinilor din Hunedoara - orasul meu natal.">
     </section>
-	<table border="1">
+	<table class="skills" border="1">
     <thead>
         <tr>
             <th scope="col" colspan="3">Personal Skills</th>
@@ -34,16 +42,16 @@
     <tbody>
         <tr>
             <th scope="row" rowspan="3">Programming</th>
-            <td>HTML</td>
-            <td>JavaScript</td>
+            <td>Python</td>
+<td class="js">JavaScript</td>
         </tr>
         <tr>
             <td>C/C++</td>
-            <td>Python</td>
+           <td class="java">Java</td>    
         </tr>
         <tr>
-            <td>Java</td>
-            <td>C#</td>
+<td>C#</td> 
+<td>-</td>
         </tr>
         <tr>
             <th scope="row" rowspan="3">Design</th>
@@ -58,14 +66,14 @@
         </tr>
         <tr>
             <th scope="row">Other</th>
-            <td colspan="2">Git</td>
+            <td colspan="2" style="font-style: italic;">Git</td>
         </tr>
     </tbody>
 </table>
 
 
-<table border="1">
-    <caption>Personal Projects Portfolio</caption>
+<table class="portfolio" border="1">
+    <caption> Personal Projects Portfolio</caption>
     <thead>
         <tr>
             <th scope="col">Project Name</th>
