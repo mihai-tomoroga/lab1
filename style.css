@@ -1,0 +1,92 @@
+h1 {
+    color: red;
+    font-style: italic;
+    padding: 10px;
+}
+.skills{
+	border-collapse: collapse;
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+
+.skills thead th {
+    background-color: #5B20B6;
+    color: white;
+   
+}
+.skills tbody th {
+    background-color: #7b3aec;
+    color: white; 
+}
+
+.skills tbody tr:nth-child(even) td {
+    background-color: #f5f3ff; 
+}
+
+.skills tbody tr:hover td {
+    background-color: #e0d4f7;
+}
+
+.js {
+    background-color: #dcfce7;
+	color:green;
+}
+
+.java {
+    background-color: #fee1e3 !important;
+    color: #b91c1c;
+}
+
+.portfolio{
+	border-collapse: collapse;
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+
+.portfolio thead th {
+    background-color: #5B20B6;
+    color: white;
+   
+}
+
+.portfolio tbody th {
+    background-color: #7b3aec;
+    color: white; 
+}
+
+ 
+.portfolio tbody tr:nth-child(even) td {
+    background-color: #f3f0ff; 
+}
+
+
+.portfolio tbody tr:hover td {
+    background-color: #e0d4f7;
+}
+	
+	
+ .hero {
+ 
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
